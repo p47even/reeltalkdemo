@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Reel Talk</string>
+
+    <!-- Welcome -->
+    <string name="welcome1">Welcome to Reel Talk, a community designed for true film and TV Show fans</string>
+    <string name="welcome2">Discover and discuss your favorite films, movies, and shows</string>
+    <string name="welcome3">Let\'s get started!\n</string>
+
+    <string name="login_prompt">Already have an account?</string>
+    <string name="login_clickable">Log in</string>
+    <string name="cont">Continue</string>
+
+    <!-- Genre selection -->
+    <string name="search">Search</string>
+    <string name="select">Select your top 3 genres for movies and TV</string>
+
+    <!-- Movie selection -->
+    <string name="selectMov">Select your top 5 movies</string>
+    <string name="searchMore">Search to add more</string>
+
+    <!-- Image descriptions -->
+    <string name="welcome1Desc">A man tending a popcorn stand.</string>
+    <string name="welcome2Desc">Two friends standing next to each other. One is eating popcorn while the other is drinking soda.</string>
+    <string name="welcome3Desc">A couple sitting together and watching a movie.</string>
+    <string name="scroll1">1 of 3</string>
+    <string name="scroll2">2 of 3</string>
+    <string name="scroll3">3 of 3</string>
+
+    <!-- Login page -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

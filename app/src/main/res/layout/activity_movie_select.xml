@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- TODO: Font, scaling, centering, rounded elements, scroll indicator, persistent continue button -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/select_prog2"
+            android:layout_marginTop="24dp"
+            />
+        <TextView
+            android:id="@+id/select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/select"
+            android:textColor="@color/highEmphasis"
+            />
+        <TextView
+            android:id="@+id/numSelected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textSize="16sp"
+            android:layout_marginHorizontal="4dp"
+            android:text="0/5 selected"
+            android:textColor="@color/medEmphasis"
+            />
+        <EditText
+            android:id="@+id/searchBox"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:drawablePadding="4dp"
+            android:drawableStart="@drawable/ic_search"
+            android:hint="@string/searchMore"
+            android:inputType="text"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginHorizontal="12dp"
+            android:textColorHint="@color/secondary"
+            android:background="@color/highEmphasis"
+            android:textColor="@color/secondary"
+            />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/movieRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </androidx.core.widget.NestedScrollView>
+
+        <Button
+            android:id="@+id/continueButton"
+            android:layout_marginHorizontal="12dp"
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/primary"
+            android:textColor="@color/secondary"
+            android:text="@string/cont"
+            android:layout_gravity="bottom"
+            android:textAllCaps="false"
+            />
+
+    </LinearLayout>
+
+</layout>
+
+
+
+
